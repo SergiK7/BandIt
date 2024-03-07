@@ -1,0 +1,97 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "[UNK]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 1,
+      "content": "[CLS]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 2,
+      "content": "[SEP]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 3,
+      "content": "[PAD]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 4,
+      "content": "[MASK]",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "WhitespaceSplit"
+  },
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "WordLevel",
+    "vocab": {
+      "[UNK]": 0,
+      "[CLS]": 1,
+      "[SEP]": 2,
+      "[PAD]": 3,
+      "[MASK]": 4,
+      "velocity=79": 5,
+      "delta=0.1666666666666714": 6,
+      "delta=0.1666666666666572": 7,
+      "delta=0.1666666666666643": 8,
+      "pitch=64": 9,
+      "pitch=59": 10,
+      "pitch=61": 11,
+      "pitch=57": 12,
+      "delta=0.16666666666666785": 13,
+      "pitch=66": 14,
+      "pitch=56": 15,
+      "pitch=54": 16,
+      "pitch=68": 17,
+      "pitch=47": 18,
+      "delta=0.16666666666666607": 19,
+      "pitch=71": 20,
+      "pitch=58": 21,
+      "delta=0.5": 22,
+      "pitch=52": 23,
+      "pitch=63": 24,
+      "pitch=49": 25,
+      "delta=0.65625": 26,
+      "pitch=42": 27,
+      "pitch=69": 28,
+      "delta=0.5833333333333428": 29,
+      "delta=0.5729166666666572": 30,
+      "pitch=51": 31,
+      "delta=0.3333333333333428": 32
+    },
+    "unk_token": "[UNK]"
+  }
+}
