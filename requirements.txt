@@ -2,8 +2,7 @@ numpy
 pandas
 mido
 pygame
-tensorflow
-music21
+pretty_midi
 matplotlib
-scikit-learn
-seaborn
+librosa
+fluidsynth
