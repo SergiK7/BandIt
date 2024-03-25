@@ -9,6 +9,7 @@ The code can be run locally using streamlit and uvicorn. The requirements.txt fi
 
 ![web interface](./bandit_gui.png)
 
+
 ## Repo structure
 ### data
 Contains midi (.mid) files.
